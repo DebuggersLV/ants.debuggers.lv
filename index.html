@@ -8,21 +8,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Skudras</title>
+    <title>Ants</title>
   </head>
   <body>
     <div class="container">
-      <h1>Sarežģītas uzvedības emerģence</h1>
+      <h1>Emergence of complex behavior from simple rules</h1>
       <div class="row">
         <div class="col-sm">
-          <h2>Pacelšanas noteikums</h2>
-          <p>Ja <strong class="text-danger">skudra</strong> uziet <strong class="text-success">lapu</strong>, tā to var pacelt un valkāt līdzi.
-          <br>Pacelšanas varbūtība <strong>apgriezti proporcionāla</strong> lapu # skudras apkārtnē.</p>
+          <h2>Picking rule</h2>
+          <p>If <strong class="text-danger">an ant</strong> stumbles upon <strong class="text-success">a leaf</strong>, it can pick and carry it.
+          <br>The picking probability is <strong>inversely proportional</strong> to the # of leafs in ant's proximity.</p>
         </div>
         <div class="col-sm">
-          <h2>Nomešanas noteikums</h2>
-          <p>Ja <strong class="text-danger">skudra</strong> valkā <strong class="text-success">lapu</strong>, tā to var nomest un turpināt ceļu.
-          <br>Nomešanas varbūtība <strong>tieši proporcionāla</strong> lapu # skudras apkārtnē.</p>
+          <h2>Dropping rule</h2>
+          <p>If <strong class="text-danger">an ant</strong> carries <strong class="text-success">a leaf</strong>, it can drop it and continue on its way.
+          <br>The dropping probability is <strong>directly proportional</strong> to the # of leafs in ant's proximity.</p>
         </div>
       </div>
       <div class="text-center">
